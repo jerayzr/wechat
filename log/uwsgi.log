@@ -1,0 +1,313 @@
+*** Starting uWSGI 1.0.3-debian (64bit) on [Sun Sep 28 13:09:54 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x78f5d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x78f5d0 pid: 13929 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 13929)
+spawned uWSGI worker 1 (pid: 13930, cores: 1)
+spawned uWSGI worker 2 (pid: 13931, cores: 1)
+spawned uWSGI worker 3 (pid: 13932, cores: 1)
+spawned uWSGI worker 4 (pid: 13933, cores: 1)
+spawned uWSGI worker 5 (pid: 13934, cores: 1)
+[pid: 13932|app: 0|req: 1/1] 159.226.95.66 () {40 vars in 724 bytes} [Sun Sep 28 13:11:07 2014] GET / => generated 1957 bytes in 238 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+*** Starting uWSGI 1.0.3-debian (64bit) on [Sun Sep 28 13:11:47 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x17b55d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x17b55d0 pid: 14062 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14062)
+spawned uWSGI worker 1 (pid: 14063, cores: 1)
+spawned uWSGI worker 2 (pid: 14064, cores: 1)
+spawned uWSGI worker 3 (pid: 14065, cores: 1)
+spawned uWSGI worker 4 (pid: 14066, cores: 1)
+spawned uWSGI worker 5 (pid: 14067, cores: 1)
+goodbye to uWSGI.
+[pid: 14065|app: 0|req: 1/1] 159.226.95.66 () {38 vars in 669 bytes} [Sun Sep 28 13:11:50 2014] GET / => generated 1957 bytes in 61 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 14063|app: 0|req: 1/2] 159.226.95.66 () {38 vars in 669 bytes} [Sun Sep 28 13:11:51 2014] GET / => generated 1957 bytes in 60 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 14064|app: 0|req: 1/3] 159.226.95.66 () {38 vars in 669 bytes} [Sun Sep 28 13:11:52 2014] GET / => generated 1957 bytes in 66 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 14063|app: 0|req: 2/4] 159.226.95.66 () {36 vars in 650 bytes} [Sun Sep 28 13:11:57 2014] GET /admin/ => generated 1957 bytes in 1 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 14063|app: 0|req: 3/5] 159.226.95.66 () {38 vars in 681 bytes} [Sun Sep 28 13:21:10 2014] GET /admin/ => generated 1957 bytes in 0 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+[pid: 14064|app: 0|req: 2/6] 159.226.95.66 () {36 vars in 638 bytes} [Sun Sep 28 13:21:13 2014] GET / => generated 1957 bytes in 1 msecs (HTTP/1.1 200) 1 headers in 44 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+goodbye to uWSGI.
+*** Starting uWSGI 1.0.3-debian (64bit) on [Sun Sep 28 13:21:25 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x263b5d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x263b5d0 pid: 14113 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14113)
+spawned uWSGI worker 1 (pid: 14114, cores: 1)
+spawned uWSGI worker 2 (pid: 14115, cores: 1)
+spawned uWSGI worker 3 (pid: 14116, cores: 1)
+spawned uWSGI worker 4 (pid: 14117, cores: 1)
+spawned uWSGI worker 5 (pid: 14118, cores: 1)
+[pid: 14116|app: 0|req: 1/1] 159.226.95.66 () {36 vars in 676 bytes} [Sun Sep 28 13:21:42 2014] GET /authentication.html => generated 60639 bytes in 687 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+[pid: 14114|app: 0|req: 1/2] 159.226.95.66 () {38 vars in 707 bytes} [Sun Sep 28 13:22:04 2014] GET /authentication.html => generated 60864 bytes in 138 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+[pid: 14115|app: 0|req: 1/3] 159.226.95.66 () {38 vars in 707 bytes} [Sun Sep 28 13:22:06 2014] GET /authentication.html => generated 60864 bytes in 143 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+goodbye to uWSGI.
+*** Starting uWSGI 1.0.3-debian (64bit) on [Sun Sep 28 13:25:00 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x1aa25d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x1aa25d0 pid: 14160 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14160)
+spawned uWSGI worker 1 (pid: 14161, cores: 1)
+spawned uWSGI worker 2 (pid: 14162, cores: 1)
+spawned uWSGI worker 3 (pid: 14163, cores: 1)
+spawned uWSGI worker 4 (pid: 14164, cores: 1)
+spawned uWSGI worker 5 (pid: 14165, cores: 1)
+[pid: 14163|app: 0|req: 1/1] 159.226.95.66 () {38 vars in 707 bytes} [Sun Sep 28 13:25:03 2014] GET /authentication.html => generated 42897 bytes in 123 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+goodbye to uWSGI.
+*** Starting uWSGI 1.0.3-debian (64bit) on [Sun Sep 28 13:27:07 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x15645d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x15645d0 pid: 14179 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14179)
+spawned uWSGI worker 1 (pid: 14180, cores: 1)
+spawned uWSGI worker 2 (pid: 14181, cores: 1)
+spawned uWSGI worker 3 (pid: 14182, cores: 1)
+spawned uWSGI worker 4 (pid: 14183, cores: 1)
+spawned uWSGI worker 5 (pid: 14184, cores: 1)
+1111111 03de532850fde15cdb5c9f95a0cf406b3a12b55c 1411882064 1078113652 4038985481877184124
+[pid: 14182|app: 0|req: 1/1] 101.226.62.82 () {34 vars in 664 bytes} [Sun Sep 28 13:27:46 2014] GET /authentication.html?signature=03de532850fde15cdb5c9f95a0cf406b3a12b55c&echostr=4038985481877184124&timestamp=1411882064&nonce=1078113652 => generated 49460 bytes in 123 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+1111111 4ab02d37a7879f8b9346316d912581445c4c7d6b 1411882130 1057079287 6317755495461420691
+[pid: 14180|app: 0|req: 1/2] 101.226.62.82 () {34 vars in 664 bytes} [Sun Sep 28 13:28:50 2014] GET /authentication.html?signature=4ab02d37a7879f8b9346316d912581445c4c7d6b&echostr=6317755495461420691&timestamp=1411882130&nonce=1057079287 => generated 49460 bytes in 140 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+1111111 c8087c61e51e3ddbf7f677a9531d399feafc0383 1411882135 589352498 233263085638361079
+[pid: 14181|app: 0|req: 1/3] 101.226.62.82 () {34 vars in 660 bytes} [Sun Sep 28 13:28:55 2014] GET /authentication.html?signature=c8087c61e51e3ddbf7f677a9531d399feafc0383&echostr=233263085638361079&timestamp=1411882135&nonce=589352498 => generated 49434 bytes in 135 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+1111111 a7899e40ba3408da072c7ebcf84855559359e385 1411882138 1342783850 5997480904794030014
+[pid: 14180|app: 0|req: 2/4] 101.226.62.82 () {34 vars in 664 bytes} [Sun Sep 28 13:28:58 2014] GET /authentication.html?signature=a7899e40ba3408da072c7ebcf84855559359e385&echostr=5997480904794030014&timestamp=1411882138&nonce=1342783850 => generated 49460 bytes in 60 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+goodbye to uWSGI.
+*** Starting uWSGI 1.0.3-debian (64bit) on [Sun Sep 28 13:30:14 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x18e75d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x18e75d0 pid: 14205 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14205)
+spawned uWSGI worker 1 (pid: 14206, cores: 1)
+spawned uWSGI worker 2 (pid: 14207, cores: 1)
+spawned uWSGI worker 3 (pid: 14208, cores: 1)
+spawned uWSGI worker 4 (pid: 14209, cores: 1)
+spawned uWSGI worker 5 (pid: 14210, cores: 1)
+1111111 69301a64ef93a86cbaa29b693cc141380ef3f872 1411882223 659674211 2345552886683917567
+[pid: 14209|app: 0|req: 1/1] 101.226.62.82 () {34 vars in 662 bytes} [Sun Sep 28 13:30:23 2014] GET /authentication.html?signature=69301a64ef93a86cbaa29b693cc141380ef3f872&echostr=2345552886683917567&timestamp=1411882223&nonce=659674211 => generated 48853 bytes in 129 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+1111111 69301a64ef93a86cbaa29b693cc141380ef3f872 1411882223 659674211 2345552886683917567
+[pid: 14206|app: 0|req: 1/2] 159.226.95.66 () {36 vars in 907 bytes} [Sun Sep 28 13:30:49 2014] GET /authentication.html?signature=69301a64ef93a86cbaa29b693cc141380ef3f872&echostr=2345552886683917567&timestamp=1411882223&nonce=659674211 => generated 49736 bytes in 133 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+1111111 69301a64ef93a86cbaa29b693cc141380ef3f872 1411882223 659674211 2345552886683917567
+[pid: 14206|app: 0|req: 2/3] 159.226.95.66 () {38 vars in 938 bytes} [Sun Sep 28 13:34:14 2014] GET /authentication.html?signature=69301a64ef93a86cbaa29b693cc141380ef3f872&echostr=2345552886683917567&timestamp=1411882223&nonce=659674211 => generated 49977 bytes in 60 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+1111111 69301a64ef93a86cbaa29b693cc141380ef3f872 1411882223 659674211 2345552886683917567
+[pid: 14207|app: 0|req: 1/4] 159.226.95.66 () {38 vars in 938 bytes} [Sun Sep 28 13:34:32 2014] GET /authentication.html?signature=69301a64ef93a86cbaa29b693cc141380ef3f872&echostr=2345552886683917567&timestamp=1411882223&nonce=659674211 => generated 49977 bytes in 130 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+*** Starting uWSGI 1.0.3-debian (64bit) on [Sun Sep 28 13:35:10 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x210c5d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x210c5d0 pid: 14330 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14330)
+spawned uWSGI worker 1 (pid: 14331, cores: 1)
+spawned uWSGI worker 2 (pid: 14332, cores: 1)
+spawned uWSGI worker 3 (pid: 14333, cores: 1)
+spawned uWSGI worker 4 (pid: 14334, cores: 1)
+spawned uWSGI worker 5 (pid: 14335, cores: 1)
+goodbye to uWSGI.
+1111111 69301a64ef93a86cbaa29b693cc141380ef3f872 1411882223 659674211 2345552886683917567
+222222 69301a64ef93a86cbaa29b693cc141380ef3f872 69301a64ef93a86cbaa29b693cc141380ef3f872 2345552886683917567
+[pid: 14333|app: 0|req: 1/1] 159.226.95.66 () {38 vars in 938 bytes} [Sun Sep 28 13:35:12 2014] GET /authentication.html?signature=69301a64ef93a86cbaa29b693cc141380ef3f872&echostr=2345552886683917567&timestamp=1411882223&nonce=659674211 => generated 49977 bytes in 140 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+1111111 None None None None
+222222 47d85be36387dc5a70976151d1d8ceb2591a6aa3 None None
+[pid: 14331|app: 0|req: 1/2] 101.226.66.21 () {36 vars in 485 bytes} [Sun Sep 28 13:42:23 2014] GET /authentication.html => generated 42327 bytes in 129 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+goodbye to uWSGI.
+*** Starting uWSGI 1.0.3-debian (64bit) on [Sun Sep 28 13:50:57 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x16cf5d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x16cf5d0 pid: 14369 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14369)
+spawned uWSGI worker 1 (pid: 14370, cores: 1)
+spawned uWSGI worker 2 (pid: 14371, cores: 1)
+spawned uWSGI worker 3 (pid: 14372, cores: 1)
+spawned uWSGI worker 4 (pid: 14373, cores: 1)
+spawned uWSGI worker 5 (pid: 14374, cores: 1)
+[pid: 14372|app: 0|req: 1/1] 159.226.95.66 () {36 vars in 897 bytes} [Sun Sep 28 13:51:04 2014] GET /authentication?signature=69301a64ef93a86cbaa29b693cc141380ef3f872&echostr=2345552886683917567&timestamp=1411882223&nonce=659674211 => generated 0 bytes in 62 msecs (HTTP/1.1 301) 2 headers in 245 bytes (1 switches on core 0)
+1111111 69301a64ef93a86cbaa29b693cc141380ef3f872 1411882223 659674211 2345552886683917567
+222222 69301a64ef93a86cbaa29b693cc141380ef3f872 69301a64ef93a86cbaa29b693cc141380ef3f872 2345552886683917567
+[pid: 14370|app: 0|req: 1/2] 159.226.95.66 () {36 vars in 899 bytes} [Sun Sep 28 13:51:04 2014] GET /authentication/?signature=69301a64ef93a86cbaa29b693cc141380ef3f872&echostr=2345552886683917567&timestamp=1411882223&nonce=659674211 => generated 49680 bytes in 127 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+1111111 e9e8230fb3050a1488a02a6e27d9766c7fe4eacc 1411883474 332485926 548028276408844274
+222222 e9e8230fb3050a1488a02a6e27d9766c7fe4eacc e9e8230fb3050a1488a02a6e27d9766c7fe4eacc 548028276408844274
+[pid: 14374|app: 0|req: 1/3] 101.226.62.82 () {34 vars in 652 bytes} [Sun Sep 28 13:51:14 2014] GET /authentication/?signature=e9e8230fb3050a1488a02a6e27d9766c7fe4eacc&echostr=548028276408844274&timestamp=1411883474&nonce=332485926 => generated 48784 bytes in 124 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+1111111 69301a64ef93a86cbaa29b693cc141380ef3f872 1411882223 659674211 2345552886683917567
+222222 69301a64ef93a86cbaa29b693cc141380ef3f872 69301a64ef93a86cbaa29b693cc141380ef3f872 2345552886683917567
+[pid: 14373|app: 0|req: 1/4] 159.226.95.66 () {38 vars in 930 bytes} [Sun Sep 28 13:51:32 2014] GET /authentication/?signature=69301a64ef93a86cbaa29b693cc141380ef3f872&echostr=2345552886683917567&timestamp=1411882223&nonce=659674211 => generated 49921 bytes in 147 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+*** Starting uWSGI 1.0.3-debian (64bit) on [Sun Sep 28 13:51:54 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x182c5d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x182c5d0 pid: 14384 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14384)
+spawned uWSGI worker 1 (pid: 14385, cores: 1)
+spawned uWSGI worker 2 (pid: 14386, cores: 1)
+spawned uWSGI worker 3 (pid: 14387, cores: 1)
+spawned uWSGI worker 4 (pid: 14388, cores: 1)
+spawned uWSGI worker 5 (pid: 14389, cores: 1)
+goodbye to uWSGI.
+1111111 69301a64ef93a86cbaa29b693cc141380ef3f872 1411882223 659674211 2345552886683917567
+222222 69301a64ef93a86cbaa29b693cc141380ef3f872 69301a64ef93a86cbaa29b693cc141380ef3f872 2345552886683917567
+99999999
+[pid: 14387|app: 0|req: 1/1] 159.226.95.66 () {38 vars in 930 bytes} [Sun Sep 28 13:51:57 2014] GET /authentication/?signature=69301a64ef93a86cbaa29b693cc141380ef3f872&echostr=2345552886683917567&timestamp=1411882223&nonce=659674211 => generated 49921 bytes in 136 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+[pid: 14385|app: 0|req: 1/2] 101.226.62.82 () {34 vars in 654 bytes} [Sun Sep 28 13:54:46 2014] GET /authentication/?signature=fd846a48799dab3e6df576f626a5fcdee4588f69&echostr=6434587053592669887&timestamp=1411883687&nonce=789628681 => generated 48235 bytes in 128 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+[pid: 14386|app: 0|req: 1/3] 101.226.62.82 () {34 vars in 654 bytes} [Sun Sep 28 13:54:48 2014] GET /authentication/?signature=61256a149873f083bf3aff65edfb8478a3a84c06&echostr=4017423741066145774&timestamp=1411883688&nonce=679671294 => generated 48235 bytes in 129 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+[pid: 14385|app: 0|req: 2/4] 159.226.95.66 () {38 vars in 930 bytes} [Sun Sep 28 13:54:51 2014] GET /authentication/?signature=69301a64ef93a86cbaa29b693cc141380ef3f872&echostr=2345552886683917567&timestamp=1411882223&nonce=659674211 => generated 49359 bytes in 59 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+*** Starting uWSGI 1.0.3-debian (64bit) on [Sun Sep 28 13:55:15 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x1ba45d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x1ba45d0 pid: 14405 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14405)
+spawned uWSGI worker 1 (pid: 14406, cores: 1)
+spawned uWSGI worker 2 (pid: 14407, cores: 1)
+spawned uWSGI worker 3 (pid: 14408, cores: 1)
+spawned uWSGI worker 4 (pid: 14409, cores: 1)
+spawned uWSGI worker 5 (pid: 14410, cores: 1)
+goodbye to uWSGI.
+1111111 69301a64ef93a86cbaa29b693cc141380ef3f872 1411882223 659674211 2345552886683917567
+222222 69301a64ef93a86cbaa29b693cc141380ef3f872 69301a64ef93a86cbaa29b693cc141380ef3f872 2345552886683917567
+99999999
+[pid: 14409|app: 0|req: 1/1] 159.226.95.66 () {38 vars in 930 bytes} [Sun Sep 28 13:55:16 2014] GET /authentication/?signature=69301a64ef93a86cbaa29b693cc141380ef3f872&echostr=2345552886683917567&timestamp=1411882223&nonce=659674211 => generated 19 bytes in 60 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 14406|app: 0|req: 1/2] 180.153.114.200 () {36 vars in 487 bytes} [Sun Sep 28 13:55:17 2014] GET /authentication.html => generated 2092 bytes in 66 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+1111111 801016902757e7e19fe9d97e72e6e9ed6f2ba649 1411883720 2111897423 7661855748442272732
+222222 801016902757e7e19fe9d97e72e6e9ed6f2ba649 801016902757e7e19fe9d97e72e6e9ed6f2ba649 7661855748442272732
+99999999
+[pid: 14408|app: 0|req: 1/3] 101.226.62.82 () {34 vars in 656 bytes} [Sun Sep 28 13:55:19 2014] GET /authentication/?signature=801016902757e7e19fe9d97e72e6e9ed6f2ba649&echostr=7661855748442272732&timestamp=1411883720&nonce=2111897423 => generated 19 bytes in 59 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 14406|app: 0|req: 2/4] 140.207.54.78 () {36 vars in 636 bytes} [Sun Sep 28 13:56:55 2014] POST /authentication/?signature=39b62a2c04784e49ce8d22c811fea7cf467cda5c&timestamp=1411883815&nonce=277328894 => generated 44640 bytes in 63 msecs (HTTP/1.0 500) 1 headers in 63 bytes (1 switches on core 0)
+[pid: 14406|app: 0|req: 3/5] 159.226.95.66 () {38 vars in 632 bytes} [Sun Sep 28 14:04:35 2014] GET / => generated 2035 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 14408|app: 0|req: 2/6] 159.226.95.66 () {36 vars in 601 bytes} [Sun Sep 28 14:05:02 2014] GET / => generated 2035 bytes in 4 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+1111111 None None None None
+222222 47d85be36387dc5a70976151d1d8ceb2591a6aa3 None None
+[pid: 14407|app: 0|req: 1/7] 159.226.95.66 () {36 vars in 631 bytes} [Sun Sep 28 14:05:04 2014] GET /authentication/ => generated 4 bytes in 65 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+1111111 None None None None
+222222 47d85be36387dc5a70976151d1d8ceb2591a6aa3 None None
+[pid: 14406|app: 0|req: 4/8] 159.226.95.66 () {38 vars in 662 bytes} [Sun Sep 28 14:05:06 2014] GET /authentication/ => generated 4 bytes in 5 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+1111111 None None None None
+222222 47d85be36387dc5a70976151d1d8ceb2591a6aa3 None None
+[pid: 14406|app: 0|req: 5/9] 101.226.66.175 () {36 vars in 478 bytes} [Sun Sep 28 14:08:12 2014] GET /authentication/ => generated 4 bytes in 0 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 14406|app: 0|req: 6/10] 180.153.206.36 () {36 vars in 476 bytes} [Sun Sep 28 14:20:49 2014] GET /authentication => generated 0 bytes in 0 msecs (HTTP/1.1 301) 2 headers in 129 bytes (1 switches on core 0)
+1111111 None None None None
+222222 47d85be36387dc5a70976151d1d8ceb2591a6aa3 None None
+[pid: 14409|app: 0|req: 2/11] 180.153.206.36 () {36 vars in 478 bytes} [Sun Sep 28 14:20:49 2014] GET /authentication/ => generated 4 bytes in 4 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
