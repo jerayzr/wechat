@@ -13,7 +13,7 @@ def get_reply_xml(phrase_xml_info):
      MsgType, 
      Content, 
      MsgId) = phrase_xml_info
-    reply_info = u'欢迎使用衣食住行小助手!<a href="http://42.121.57.227/userinfo/">请点击此处查看个人信息</a>'
+    reply_info = u'欢迎使用衣食住行小助手!<a href="http://42.121.57.227/userinfo/?wechat_id=%s">请点击此处查看个人信息</a>'%FromUserName
     reply_xml = '''<xml>
     <ToUserName><![CDATA[%s]]></ToUserName>
     <FromUserName><![CDATA[%s]]></FromUserName>
