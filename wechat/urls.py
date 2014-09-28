@@ -5,7 +5,10 @@ from django.conf.urls import patterns, include, url
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-    url(r'^authentication/', 'wechat.views.wechat'),
+    url(r'^$', 'wechat.views.wechat'),
+    url(r'^userinfo/$', 'userinfo.views.user_judge'),
+    url(r'^userinfo/signin/$', 'userinfo.views.user_signin'),
+    url(r'^userinfo/info/$', 'userinfo.views.user_info'),
 )
 urlpatterns += patterns('',
     (r'^media/(?P<path>.*)$', 'django.views.static.serve'),
