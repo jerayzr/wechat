@@ -50,3 +50,8 @@ def user_info(request, wechat_id, template='info.html'):
     if user_info:    
         dicts = {'user_info':user_info[0]}
     return render_to_response(template, dicts)
+
+def oauth(request):
+    print 11111111111
+    return HttpResponse(0)
+

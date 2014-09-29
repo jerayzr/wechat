@@ -1599,3 +1599,260 @@ goodbye to uWSGI.
 [pid: 19181|app: 0|req: 6/52] 60.247.46.156 () {44 vars in 965 bytes} [Mon Sep 29 00:20:49 2014] POST /userinfo/signin/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 0 bytes in 17 msecs (HTTP/1.1 302) 4 headers in 193 bytes (1 switches on core 0)
 [pid: 19179|app: 0|req: 18/53] 60.247.46.156 () {42 vars in 816 bytes} [Mon Sep 29 00:20:49 2014] GET /userinfo/ => generated 457 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
 [pid: 19180|app: 0|req: 14/54] 60.247.46.156 () {38 vars in 766 bytes} [Mon Sep 29 00:20:54 2014] GET /userinfo/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 457 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 19/55] 60.247.46.156 () {38 vars in 766 bytes} [Mon Sep 29 00:28:20 2014] GET /userinfo/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 457 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 15/56] 60.247.46.156 () {38 vars in 766 bytes} [Mon Sep 29 00:30:13 2014] GET /userinfo/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 457 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 9/57] 180.153.206.13 () {36 vars in 452 bytes} [Mon Sep 29 00:32:07 2014] GET /userinfo/ => generated 47316 bytes in 66 msecs (HTTP/1.1 500) 2 headers in 77 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 20/58] 140.207.54.78 () {36 vars in 594 bytes} [Mon Sep 29 00:37:49 2014] POST /?signature=53b801884a535d1a66d9d9c8a1d686e8d9865ce4&timestamp=1411922269&nonce=1118958106 => generated 54943 bytes in 77 msecs (HTTP/1.0 500) 1 headers in 63 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 21/59] 140.207.54.78 () {36 vars in 594 bytes} [Mon Sep 29 00:41:29 2014] POST /?signature=bc1e3e2e3b84967fe7477ebd02ff18c5d586cc2e&timestamp=1411922490&nonce=1436292973 => generated 54116 bytes in 65 msecs (HTTP/1.0 500) 1 headers in 63 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 16/60] 140.207.54.78 () {36 vars in 594 bytes} [Mon Sep 29 00:41:49 2014] POST /?signature=b8a5cdce056ec6b6a5cf83487d4968eb5833e584&timestamp=1411922509&nonce=1653702719 => generated 414 bytes in 0 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19181|app: 0|req: 7/61] 60.247.46.156 () {38 vars in 875 bytes} [Mon Sep 29 00:41:52 2014] GET /userinfo/?wechat_id=oeYYHuFgpfAyX5vif9dJwsvB-hfE => generated 0 bytes in 1 msecs (HTTP/1.1 302) 3 headers in 164 bytes (1 switches on core 0)
+[pid: 19182|app: 0|req: 9/62] 60.247.46.156 () {38 vars in 889 bytes} [Mon Sep 29 00:41:52 2014] GET /userinfo/signin/?wechat_id=oeYYHuFgpfAyX5vif9dJwsvB-hfE => generated 485 bytes in 1 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 10/63] 60.247.46.156 () {46 vars in 1132 bytes} [Mon Sep 29 00:42:02 2014] POST /userinfo/signin/?wechat_id=oeYYHuFgpfAyX5vif9dJwsvB-hfE => generated 0 bytes in 13 msecs (HTTP/1.1 302) 4 headers in 193 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 17/64] 60.247.46.156 () {44 vars in 983 bytes} [Mon Sep 29 00:42:02 2014] GET /userinfo/ => generated 456 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 22/65] 60.247.46.156 () {40 vars in 933 bytes} [Mon Sep 29 00:42:09 2014] GET /userinfo/?wechat_id=oeYYHuFgpfAyX5vif9dJwsvB-hfE => generated 456 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 23/66] 180.153.206.22 () {36 vars in 529 bytes} [Mon Sep 29 00:48:17 2014] GET /userinfo/?wechat_id=oeYYHuFgpfAyX5vif9dJwsvB-hfE => generated 0 bytes in 0 msecs (HTTP/1.1 302) 3 headers in 164 bytes (1 switches on core 0)
+[pid: 19181|app: 0|req: 8/67] 180.153.206.22 () {36 vars in 543 bytes} [Mon Sep 29 00:48:17 2014] GET /userinfo/signin/?wechat_id=oeYYHuFgpfAyX5vif9dJwsvB-hfE => generated 485 bytes in 0 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 24/68] 180.153.201.212 () {36 vars in 530 bytes} [Mon Sep 29 00:49:21 2014] GET /userinfo/?wechat_id=oeYYHuFgpfAyX5vif9dJwsvB-hfE => generated 0 bytes in 0 msecs (HTTP/1.1 302) 3 headers in 164 bytes (1 switches on core 0)
+[pid: 19181|app: 0|req: 9/69] 180.153.201.212 () {36 vars in 544 bytes} [Mon Sep 29 00:49:21 2014] GET /userinfo/signin/?wechat_id=oeYYHuFgpfAyX5vif9dJwsvB-hfE => generated 485 bytes in 0 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 25/70] 140.207.54.78 () {36 vars in 590 bytes} [Mon Sep 29 00:56:25 2014] POST /?signature=80eeedb0f137c3793a1dceedcaa958edc3cea4bb&timestamp=1411923385&nonce=63039860 => generated 414 bytes in 0 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 18/71] 60.247.46.156 () {38 vars in 766 bytes} [Mon Sep 29 00:56:27 2014] GET /userinfo/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 457 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 26/72] 140.207.54.78 () {36 vars in 594 bytes} [Mon Sep 29 01:01:43 2014] POST /?signature=30242d7447c3c9c14a1b91167c95efafeba15d2d&timestamp=1411923703&nonce=1258278330 => generated 414 bytes in 1 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 19/73] 60.247.46.156 () {38 vars in 765 bytes} [Mon Sep 29 01:01:45 2014] GET /userinfo/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 457 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 27/74] 180.153.196.44 () {36 vars in 608 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-sys/defaultwebpage.cgi => generated 2321 bytes in 4 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 20/75] 180.153.196.44 () {36 vars in 590 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-mod/index.cgi => generated 2294 bytes in 4 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 11/76] 180.153.196.44 () {36 vars in 588 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/load.cgi => generated 2291 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19182|app: 0|req: 10/77] 180.153.196.44 () {36 vars in 590 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/gsweb.cgi => generated 2294 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19181|app: 0|req: 10/78] 180.153.196.44 () {36 vars in 600 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/redirector.cgi => generated 2309 bytes in 4 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 28/79] 180.153.196.44 () {36 vars in 588 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/test.cgi => generated 2291 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 21/80] 180.153.196.44 () {36 vars in 590 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/index.cgi => generated 2294 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 12/81] 180.153.196.44 () {36 vars in 588 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/help.cgi => generated 2291 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19182|app: 0|req: 11/82] 180.153.196.44 () {36 vars in 590 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/about.cgi => generated 2294 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19181|app: 0|req: 11/83] 180.153.196.44 () {36 vars in 602 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/vidredirect.cgi => generated 2312 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 29/84] 180.153.196.44 () {36 vars in 590 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/click.cgi => generated 2294 bytes in 4 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 22/85] 180.153.196.44 () {36 vars in 594 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/details.cgi => generated 2300 bytes in 5 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 13/86] 180.153.196.44 () {36 vars in 586 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/log.cgi => generated 2288 bytes in 4 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 30/87] 180.153.196.44 () {36 vars in 602 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/viewcontent.cgi => generated 2312 bytes in 4 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 23/88] 180.153.196.44 () {36 vars in 594 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/content.cgi => generated 2300 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19182|app: 0|req: 12/89] 180.153.196.44 () {36 vars in 594 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/content.cgi => generated 2300 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19181|app: 0|req: 12/90] 180.153.196.44 () {36 vars in 590 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/admin.cgi => generated 2294 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 14/91] 180.153.196.44 () {36 vars in 594 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/webmail.cgi => generated 2300 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 31/92] 180.153.196.44 () {36 vars in 606 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-sys/entropysearch.cgi => generated 2318 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 24/93] 180.153.196.44 () {36 vars in 588 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin/test.cgi => generated 2291 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19182|app: 0|req: 13/94] 180.153.196.44 () {36 vars in 596 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-bin-sdb/printenv => generated 2303 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19181|app: 0|req: 13/95] 180.153.196.44 () {36 vars in 606 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-sys/entropysearch.cgi => generated 2318 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 15/96] 180.153.196.44 () {36 vars in 608 bytes} [Mon Sep 29 01:44:42 2014] GET /cgi-sys/FormMail-clone.cgi => generated 2321 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 32/97] 180.153.196.44 () {36 vars in 586 bytes} [Mon Sep 29 01:44:43 2014] GET /cgi-bin/test.sh => generated 2288 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 25/98] 180.153.196.44 () {36 vars in 586 bytes} [Mon Sep 29 01:44:43 2014] GET /cgi-bin/info.sh => generated 2288 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 33/99] 157.55.39.167 () {40 vars in 550 bytes} [Mon Sep 29 07:32:05 2014] GET /robots.txt => generated 2273 bytes in 5 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 26/100] 157.55.39.171 () {42 vars in 630 bytes} [Mon Sep 29 07:32:15 2014] GET /seller/register/ => generated 2291 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 34/101] 140.207.54.78 () {36 vars in 592 bytes} [Mon Sep 29 09:44:44 2014] POST /?signature=cb2b8076c8ee8dab5b746df7aac062230ed96f4b&timestamp=1411955084&nonce=574167695 => generated 414 bytes in 0 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 27/102] 159.226.95.66 () {36 vars in 709 bytes} [Mon Sep 29 09:44:47 2014] GET /userinfo/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 0 bytes in 0 msecs (HTTP/1.1 302) 3 headers in 164 bytes (1 switches on core 0)
+[pid: 19181|app: 0|req: 14/103] 159.226.95.66 () {36 vars in 723 bytes} [Mon Sep 29 09:44:47 2014] GET /userinfo/signin/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 485 bytes in 0 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 16/104] 159.226.95.66 () {44 vars in 965 bytes} [Mon Sep 29 09:44:51 2014] POST /userinfo/signin/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 0 bytes in 3 msecs (HTTP/1.1 302) 2 headers in 150 bytes (1 switches on core 0)
+[pid: 19182|app: 0|req: 14/105] 159.226.95.66 () {40 vars in 850 bytes} [Mon Sep 29 09:44:51 2014] GET /userinfo/signin/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 485 bytes in 1 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 28/106] 159.226.95.66 () {44 vars in 965 bytes} [Mon Sep 29 09:45:00 2014] POST /userinfo/signin/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 0 bytes in 19 msecs (HTTP/1.1 302) 4 headers in 193 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 35/107] 159.226.95.66 () {42 vars in 816 bytes} [Mon Sep 29 09:45:00 2014] GET /userinfo/ => generated 456 bytes in 6 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 17/108] 159.226.95.66 () {38 vars in 766 bytes} [Mon Sep 29 09:45:41 2014] GET /userinfo/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 456 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 29/109] 159.226.95.66 () {38 vars in 766 bytes} [Mon Sep 29 09:45:45 2014] GET /userinfo/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 456 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 36/110] 159.226.95.66 () {38 vars in 766 bytes} [Mon Sep 29 09:45:47 2014] GET /userinfo/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 456 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 37/111] 101.226.66.175 () {36 vars in 529 bytes} [Mon Sep 29 09:55:57 2014] GET /userinfo/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 0 bytes in 0 msecs (HTTP/1.1 302) 3 headers in 164 bytes (1 switches on core 0)
+[pid: 19181|app: 0|req: 15/112] 101.226.66.175 () {36 vars in 543 bytes} [Mon Sep 29 09:55:57 2014] GET /userinfo/signin/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 485 bytes in 0 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 38/113] 140.207.54.78 () {36 vars in 594 bytes} [Mon Sep 29 10:14:24 2014] POST /?signature=1252e9c7762539a7eaedea4973c844ef1ad92421&timestamp=1411956864&nonce=2116631843 => generated 54116 bytes in 66 msecs (HTTP/1.0 500) 1 headers in 63 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 30/114] 140.207.54.78 () {36 vars in 594 bytes} [Mon Sep 29 10:14:32 2014] POST /?signature=6279a56647ea40f3fde227f6c88d4097da301318&timestamp=1411956872&nonce=1772915575 => generated 414 bytes in 1 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19181|app: 0|req: 16/115] 58.253.96.92 () {36 vars in 700 bytes} [Mon Sep 29 10:14:37 2014] GET /userinfo/?wechat_id=oeYYHuMX9xE--mABU03zxnw7P4n8 => generated 0 bytes in 0 msecs (HTTP/1.1 302) 3 headers in 164 bytes (1 switches on core 0)
+[pid: 19183|app: 0|req: 18/116] 58.253.96.92 () {36 vars in 714 bytes} [Mon Sep 29 10:14:38 2014] GET /userinfo/signin/?wechat_id=oeYYHuMX9xE--mABU03zxnw7P4n8 => generated 485 bytes in 1 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19182|app: 0|req: 15/117] 58.253.96.92 () {44 vars in 956 bytes} [Mon Sep 29 10:14:46 2014] POST /userinfo/signin/?wechat_id=oeYYHuMX9xE--mABU03zxnw7P4n8 => generated 0 bytes in 15 msecs (HTTP/1.1 302) 4 headers in 193 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 31/118] 58.253.96.92 () {42 vars in 807 bytes} [Mon Sep 29 10:14:46 2014] GET /userinfo/ => generated 456 bytes in 5 msecs (HTTP/1.1 200) 2 headers in 73 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 39/119] 81.144.138.34 () {38 vars in 564 bytes} [Mon Sep 29 10:26:52 2014] GET /robots.txt => generated 2273 bytes in 3 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19180|app: 0|req: 32/120] 81.144.138.34 () {38 vars in 544 bytes} [Mon Sep 29 10:27:08 2014] GET / => generated 4 bytes in 0 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 40/121] 192.3.45.107 () {26 vars in 346 bytes} [Mon Sep 29 10:34:56 2014] GET /etc/lib/pChart2/examples/index.php => generated 2345 bytes in 4 msecs (HTTP/1.1 404) 1 headers in 51 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 41/122] 140.207.54.78 () {36 vars in 592 bytes} [Mon Sep 29 10:43:46 2014] POST /?signature=e1b015b5b8523dc965daef5ead0c170e405e4949&timestamp=1411958626&nonce=738583870 => generated 414 bytes in 1 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 42/123] 140.207.54.78 () {36 vars in 592 bytes} [Mon Sep 29 10:45:53 2014] POST /?signature=4d917830d9c9f376d2bb44b4bcf252488adf7ea3&timestamp=1411958753&nonce=917896192 => generated 414 bytes in 0 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 43/124] 140.207.54.78 () {36 vars in 590 bytes} [Mon Sep 29 10:53:53 2014] POST /?signature=627c1d2b8e22c9497f3a21b957361112aa4e7f1e&timestamp=1411959233&nonce=72588779 => generated 414 bytes in 0 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 19179|app: 0|req: 44/125] 140.207.54.78 () {36 vars in 592 bytes} [Mon Sep 29 10:54:57 2014] POST /?signature=cbe8d3e8571a8fe0dc8b5daac0f7c83404b39bdc&timestamp=1411959297&nonce=571526373 => generated 414 bytes in 1 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+goodbye to uWSGI.
+*** Starting uWSGI 1.0.3-debian (64bit) on [Mon Sep 29 11:01:55 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x173b5d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x173b5d0 pid: 20494 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20494)
+spawned uWSGI worker 1 (pid: 20495, cores: 1)
+spawned uWSGI worker 2 (pid: 20496, cores: 1)
+spawned uWSGI worker 3 (pid: 20497, cores: 1)
+spawned uWSGI worker 4 (pid: 20498, cores: 1)
+spawned uWSGI worker 5 (pid: 20499, cores: 1)
+[pid: 20496|app: 0|req: 1/1] 140.207.54.78 () {36 vars in 592 bytes} [Mon Sep 29 11:02:04 2014] POST /?signature=41c6344653984055874ebf872e0331eb99980419&timestamp=1411959725&nonce=796682633 => generated 54452 bytes in 134 msecs (HTTP/1.0 500) 1 headers in 63 bytes (1 switches on core 0)
+[pid: 20495|app: 0|req: 1/2] 140.207.54.78 () {36 vars in 594 bytes} [Mon Sep 29 11:02:19 2014] POST /?signature=ffdebca39c67e5605bc67421ac484f4eeefa038d&timestamp=1411959739&nonce=1598782436 => generated 54463 bytes in 156 msecs (HTTP/1.0 500) 1 headers in 63 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+*** Starting uWSGI 1.0.3-debian (64bit) on [Mon Sep 29 11:03:23 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x1a4a5d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x1a4a5d0 pid: 20536 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20536)
+spawned uWSGI worker 1 (pid: 20537, cores: 1)
+spawned uWSGI worker 2 (pid: 20538, cores: 1)
+spawned uWSGI worker 3 (pid: 20539, cores: 1)
+spawned uWSGI worker 4 (pid: 20540, cores: 1)
+spawned uWSGI worker 5 (pid: 20541, cores: 1)
+goodbye to uWSGI.
+[pid: 20540|app: 0|req: 1/1] 140.207.54.78 () {36 vars in 594 bytes} [Mon Sep 29 11:03:27 2014] POST /?signature=7e4d8e8687e16c127260c1794259eaf7f07f3511&timestamp=1411959807&nonce=1388957763 => generated 266 bytes in 69 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+goodbye to uWSGI.
+*** Starting uWSGI 1.0.3-debian (64bit) on [Mon Sep 29 11:05:21 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x24b95d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x24b95d0 pid: 20554 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20554)
+spawned uWSGI worker 1 (pid: 20555, cores: 1)
+spawned uWSGI worker 2 (pid: 20556, cores: 1)
+spawned uWSGI worker 3 (pid: 20557, cores: 1)
+spawned uWSGI worker 4 (pid: 20558, cores: 1)
+spawned uWSGI worker 5 (pid: 20559, cores: 1)
+[pid: 20558|app: 0|req: 1/1] 140.207.54.78 () {36 vars in 594 bytes} [Mon Sep 29 11:05:24 2014] POST /?signature=064398d326b0a3b6733f297fd3eec1b407567b8c&timestamp=1411959924&nonce=1285201175 => generated 535 bytes in 69 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 20555|app: 0|req: 1/2] 140.207.54.78 () {36 vars in 594 bytes} [Mon Sep 29 11:05:49 2014] POST /?signature=d3d0df7f767502d416df1e1296155cc8cb6e58e9&timestamp=1411959950&nonce=1943396686 => generated 535 bytes in 69 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+*** Starting uWSGI 1.0.3-debian (64bit) on [Mon Sep 29 11:06:25 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x9985d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x9985d0 pid: 20569 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20569)
+spawned uWSGI worker 1 (pid: 20570, cores: 1)
+spawned uWSGI worker 2 (pid: 20571, cores: 1)
+spawned uWSGI worker 3 (pid: 20572, cores: 1)
+spawned uWSGI worker 4 (pid: 20573, cores: 1)
+spawned uWSGI worker 5 (pid: 20574, cores: 1)
+goodbye to uWSGI.
+[pid: 20572|app: 0|req: 1/1] 140.207.54.78 () {36 vars in 594 bytes} [Mon Sep 29 11:06:33 2014] POST /?signature=7d9af9ac9085c70bc0072659fe143cc3d680a533&timestamp=1411959993&nonce=2136016950 => generated 534 bytes in 65 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 20570|app: 0|req: 1/2] 159.226.95.66 () {36 vars in 709 bytes} [Mon Sep 29 11:06:44 2014] GET /userinfo/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 0 bytes in 69 msecs (HTTP/1.1 302) 3 headers in 164 bytes (1 switches on core 0)
+[pid: 20573|app: 0|req: 1/3] 159.226.95.66 () {36 vars in 723 bytes} [Mon Sep 29 11:06:45 2014] GET /userinfo/signin/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 485 bytes in 73 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 20570|app: 0|req: 2/4] 222.73.76.253 () {36 vars in 542 bytes} [Mon Sep 29 11:20:16 2014] GET /userinfo/signin/?wechat_id=oeYYHuJB28ohVipz12fSY0kul6iY => generated 485 bytes in 2 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 20570|app: 0|req: 3/5] 101.226.62.80 () {34 vars in 610 bytes} [Mon Sep 29 11:24:39 2014] GET /?signature=f07497c1e44ceba5cf639079c61af455a5ef6e81&echostr=7799535769171779318&timestamp=1411961078&nonce=832570470 => generated 19 bytes in 1 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 20570|app: 0|req: 4/6] 140.207.54.78 () {36 vars in 592 bytes} [Mon Sep 29 11:25:34 2014] POST /?signature=536b9f1711d185ec4e742de11e795acd8eb8a626&timestamp=1411961134&nonce=896803231 => generated 54110 bytes in 80 msecs (HTTP/1.0 500) 1 headers in 63 bytes (1 switches on core 0)
+[pid: 20573|app: 0|req: 2/7] 140.207.54.78 () {36 vars in 592 bytes} [Mon Sep 29 11:25:42 2014] POST /?signature=2e3ef3607d445d416063a62dc94e47958dcfff1a&timestamp=1411961142&nonce=803284944 => generated 534 bytes in 2 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+goodbye to uWSGI.
+*** Starting uWSGI 1.0.3-debian (64bit) on [Mon Sep 29 11:28:48 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x21455d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x21455d0 pid: 20593 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20593)
+spawned uWSGI worker 1 (pid: 20594, cores: 1)
+spawned uWSGI worker 2 (pid: 20595, cores: 1)
+spawned uWSGI worker 3 (pid: 20596, cores: 1)
+spawned uWSGI worker 4 (pid: 20597, cores: 1)
+spawned uWSGI worker 5 (pid: 20598, cores: 1)
+[pid: 20596|app: 0|req: 1/1] 140.207.54.78 () {36 vars in 594 bytes} [Mon Sep 29 11:29:05 2014] POST /?signature=176b4ef75988756fe55dc7b7b99ee8531ad78eca&timestamp=1411961345&nonce=1382785359 => generated 552 bytes in 73 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+*** Starting uWSGI 1.0.3-debian (64bit) on [Mon Sep 29 11:29:45 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0xdd15d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0xdd15d0 pid: 20608 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20608)
+spawned uWSGI worker 1 (pid: 20609, cores: 1)
+spawned uWSGI worker 2 (pid: 20610, cores: 1)
+spawned uWSGI worker 3 (pid: 20611, cores: 1)
+spawned uWSGI worker 4 (pid: 20612, cores: 1)
+spawned uWSGI worker 5 (pid: 20613, cores: 1)
+goodbye to uWSGI.
+[pid: 20611|app: 0|req: 1/1] 140.207.54.78 () {36 vars in 594 bytes} [Mon Sep 29 11:29:48 2014] POST /?signature=52095fbaae82518ec6c81001a3f76c69257e0fe7&timestamp=1411961388&nonce=1760987750 => generated 551 bytes in 63 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+goodbye to uWSGI.
+*** Starting uWSGI 1.0.3-debian (64bit) on [Mon Sep 29 11:31:35 2014] ***
+compiled with version: 4.6.3 on 17 July 2012 02:26:54
+current working directory: /home/website/work/wechat
+writing pidfile to /home/website/work/wechat/run/uwsgi.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your memory page size is 4096 bytes
+uwsgi socket 0 bound to UNIX address /home/website/work/wechat/run/uwsgi.sock fd 4
+Python version: 2.7.3 (default, Aug  1 2012, 05:25:23)  [GCC 4.6.3]
+Python main interpreter initialized at 0x22435d0
+your server socket listen backlog is limited to 100 connections
+*** Operational MODE: preforking ***
+added /home/website/work/wechat/ to pythonpath.
+WSGI application 0 (mountpoint='') ready on interpreter 0x22435d0 pid: 20623 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 20623)
+spawned uWSGI worker 1 (pid: 20624, cores: 1)
+spawned uWSGI worker 2 (pid: 20625, cores: 1)
+spawned uWSGI worker 3 (pid: 20626, cores: 1)
+spawned uWSGI worker 4 (pid: 20627, cores: 1)
+spawned uWSGI worker 5 (pid: 20628, cores: 1)
+[pid: 20627|app: 0|req: 1/1] 140.207.54.78 () {36 vars in 594 bytes} [Mon Sep 29 11:31:41 2014] POST /?signature=ab4e46ca529cead706b5e64bfa873fa7123b6d44&timestamp=1411961501&nonce=1470295916 => generated 552 bytes in 67 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+[pid: 20624|app: 0|req: 1/2] 140.207.54.78 () {36 vars in 594 bytes} [Mon Sep 29 11:32:41 2014] POST /?signature=89961b380b86438ad987eb58344ccec0feca370e&timestamp=1411961561&nonce=2027625973 => generated 552 bytes in 67 msecs (HTTP/1.0 200) 1 headers in 59 bytes (1 switches on core 0)
+11111111111
+[pid: 20625|app: 0|req: 1/3] 159.226.95.66 () {36 vars in 743 bytes} [Mon Sep 29 11:32:43 2014] GET /oauth.html?code=02c3f5f1e5c86854784e77bacdeeb3dd&state=test_oauth => generated 1 bytes in 66 msecs (HTTP/1.1 200) 1 headers in 59 bytes (1 switches on core 0)

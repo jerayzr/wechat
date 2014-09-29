@@ -13,7 +13,9 @@ def get_reply_xml(phrase_xml_info):
      MsgType, 
      Content, 
      MsgId) = phrase_xml_info
-    reply_info = u'欢迎使用衣食住行小助手!<a href="http://42.121.57.227/userinfo/?wechat_id=%s">请点击此处查看个人信息</a>'%FromUserName
+    #reply_info = u'欢迎使用衣食住行小助手!<a href="http://42.121.57.227/userinfo/?wechat_id=%s">请点击此处查看个人信息</a>!<a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=gh_93a5f52f82c0&redirect_uri=http%3A%2F%2F42.121.57.227%2Foauth.html&response_type=code&scope=snsapi_userinfo&state=fuck#wechat_redirect">点击此处进行oauth认证</a>'%FromUserName
+    #reply_info = u'欢迎使用衣食住行小助手!<a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=gh_93a5f52f82c0&redirect_uri=http%3A%2F%2Fwww.1wwy.com%2Foauth.html&response_type=code&scope=snsapi_userinfo&state=fuck#wechat_redirect">点击此处进行oauth认证</a>'
+    reply_info = u'欢迎Jeray的微信公众平台测试号!<a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxc4d4838cfad9a1e0&redirect_uri=http%3A%2F%2F42.121.57.227%2Foauth.html&response_type=code&scope=snsapi_userinfo&state=test_oauth#wechat_redirect">点击此处进行oauth认证</a>'
     reply_xml = '''<xml>
     <ToUserName><![CDATA[%s]]></ToUserName>
     <FromUserName><![CDATA[%s]]></FromUserName>
