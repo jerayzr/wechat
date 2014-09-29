@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>个人信息</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="/media/css/custom.css" />
+</head>
+<body>
+<div>
+<p>您的openid是：{{openid}}</p>
+<p>您的昵称是：{{nickname}}</p>
+<p>您性别是：{%if sex == 0%}未知{%endif%}{%if sex == 1%}男{%endif%}{%if sex == 2%}女{%endif%}</p>
+<p>您的省份是：{{province}}</p>
+<p>您的城市是：{{city}}</p>
+<p>您的国家是：{{country}}</p>
+<p>您的头像是：<img src="{{headimgurl}}" width="100"></p>
+<p>您的特权信息是：{{privilege}}</p>
+</div>
+</body>
+</html>

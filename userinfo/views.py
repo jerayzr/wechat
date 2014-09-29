@@ -4,7 +4,9 @@ from django.shortcuts import render_to_response
 from django.http import HttpResponseRedirect,HttpResponse
 from datetime import datetime
 import time
-
+import urllib
+import json
+from pprint import pprint
 from userinfo.models import UserInfo
 from wechat.views import get_xml_info
 
@@ -51,7 +53,19 @@ def user_info(request, wechat_id, template='info.html'):
         dicts = {'user_info':user_info[0]}
     return render_to_response(template, dicts)
 
-def oauth(request):
-    print 11111111111
-    return HttpResponse(0)
-
+def oauth(request, template='userinfo.html'):
+    code = request.GET.get('code', None)
+    state = request.GET.get('state', None)
+    return_json = urllib.urlopen('https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxc4d4838cfad9a1e0&secret=7a29d16a7785eac78eb4e74190291c01&code=%s&grant_type=authorization_code'%code).read()
+    json_info = json.loads(return_json)
+    ErrCode = "errcode"
+    if ErrCode in json_info.keys(): 
+        return HttpResponse(return_json)
+    access_token = json_info['access_token']
+    openid = json_info['openid']
+    lang = "zh_CN"
+    return_user_info = urllib.urlopen('https://api.weixin.qq.com/sns/userinfo?access_token=%s&openid=%s&lang=%s'%(access_token, openid, lang)).read()
+    json_user_info = json.loads(return_user_info)
+    if ErrCode in json_user_info.keys():
+        return HttpResponse(return_user_info)
+    return render_to_response(template, json_user_info)
